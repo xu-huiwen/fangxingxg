@@ -1,0 +1,1144 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+.boxz1,.boxz2,.boxz3,.boxz4,.boxz5,.boxz6,.boxz7,.boxz8,.boxz9,.boxz10,.boxz11,.boxz12,.boxz13,.boxz14,.boxz15{
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 60px;
+	position: relative;
+	overflow: hidden;
+    color: #FFF;
+    outline-width: 10px;
+    outline-color: #CCC;
+    box-shadow: 10px 10px 10px #CCC;
+}
+
+
+
+
+
+
+
+
+/*1*/
+.boxz1 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+.boxz1 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2;
+	transition:all 0.4s;
+}
+.boxz1 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz1 .box  .ziti{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	background: #333;
+	transform: scale(0.5);
+	transition:all 0.5s ease-in-out;
+}
+.boxz1 .box  .ziti h3{
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	z-index: 1;
+}
+.boxz1 .box  .ziti span{
+	display: block;
+	position: absolute;
+	right: 12px;
+	bottom: 12px;
+	font-size: 12px;
+	color: #bbb;
+	z-index: 1;
+}
+.boxz1 :hover .img{
+	 transform: scale(0.3);
+}
+.boxz1  :hover .ziti{
+	 transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+/*2*/
+.boxz2 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.boxz2 .box  .img{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.35s;
+}
+.boxz2 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz2 .box  .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #333;
+	opacity: 0;
+	transition: all 0.1s ease-in-out 0.2s;
+	z-index: 30;
+}
+.boxz2 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px;
+	background: #111111;
+	margin: 30px 0 0 0;
+	transition: all 0.4s;
+	position: absolute;
+	top: -100%;
+	left: 86px;
+}
+.boxz2 .box  .ziti span{
+	display: block;
+	font-size: 12px;
+	position: relative;
+	top: -100%;
+	left: 0;
+	color: #bbb;
+	padding: 20px 20px 20px;
+	text-align: center;
+	transition: all 1s;
+}
+.boxz2:hover .img{
+	transform: rotate(360deg) scale(0);
+	opacity: 0;
+}
+.boxz2 :hover .ziti{
+	opacity: 1;
+}
+.boxz2 :hover .ziti h3{
+	top: 20px;
+}
+.boxz2 :hover .ziti span{
+	top: 50%;
+}
+
+
+
+
+
+
+
+/*3*/
+.boxz3 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.boxz3 .box  .img{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 1s ease;
+}
+.boxz3 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz3 .box  .ziti{
+	width: 300px;
+	height: 65px;
+	position: absolute;
+	top: 200px;
+	left: 0;
+	background: #333;
+	transition: all 1s ease-in-out;
+}
+.boxz3 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+}
+.boxz3 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #FFF;
+	padding: 5px;
+	text-align: center;
+}
+.boxz3:hover .img{
+	top: -65px;
+}
+.boxz3 :hover .ziti{
+	top: 135px;
+}
+
+
+
+
+
+
+
+
+
+
+/*4*/
+.boxz4 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz4 .box  .img{
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+.boxz4 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz4 .box .top{
+	position: absolute;
+	width: 361px;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	left: 0;
+	top: 0;
+	z-index: 10;
+	transform-origin: left bottom;
+	transform: rotate(-33deg)translateY(-200px);
+	transition: all 1s;
+}
+.boxz4 .box .btn{
+	position: absolute;
+	width: 361px;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	right: 0;
+	top: 0;
+	z-index: 10;
+	transform-origin: right top;
+	transform: rotate(-33deg)translateY(200px);
+	transition: all 1s;
+}
+.boxz4 .box  .ziti{
+	width: 90%;
+	height: 0px;
+	position: absolute;
+	top: 50px;
+	left: 5%;
+	z-index: 100;
+	opacity: 0;
+	color: #FFF;
+	text-align: center;
+	background: rgba(0,0,0,0.9);
+	transform: rotate(-30deg)translateY(50px);
+	transition: all 0.4s ease-in-out;
+}
+.boxz4:hover .top{
+	transform: rotate(-33deg)translateY(0px);
+}
+.boxz4:hover .btn{
+	transform: rotate(-33deg)translateY(0px);
+}
+.boxz4:hover .ziti{
+	height: 100px;
+	transform: rotate(0deg);
+	opacity: 1;
+}
+
+
+/*5*/
+.boxz5 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz5 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+.boxz5 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.4s ease-in-out;
+}
+.boxz5 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz5 .box  .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #333;
+	transform: scale(0) rotate(-180deg);
+	transition: all 0.75s ease-in-out;
+}
+.boxz5 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	height: 40px;
+	background: #000;
+}
+.boxz5 .box  .ziti span{
+	display: block;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+}
+.boxz5 :hover .img{
+	transform: scale(0);
+}
+.boxz5 :hover .ziti{
+	transform: scale(1) rotate(0deg);
+}
+
+
+
+
+
+
+
+/*6*/
+
+
+
+
+
+/*6*/
+.boxz6 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz6 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+.boxz6 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.4s ease-in-out;
+}
+.boxz6 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz6 .box  .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	opacity: 0;
+	z-index: 30;
+	transition: all 0.5s ease-in-out;
+}
+.boxz6 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 10px 0 4px;
+	transform: translateY(-100px);
+	transition: all 1s;
+}
+.boxz6 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+	transform: translateY(200px);
+	transition: all 1s;
+}
+.boxz6 :hover .img{
+	transform: scale(1.2);
+}
+.boxz6  :hover .ziti{
+	opacity: 1;
+}
+.boxz6 :hover .ziti h3{
+	transform: translateY(40px);
+}
+.boxz6 .box :hover .ziti span{
+	transform: translateY(60px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*7*/
+.boxz7 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz7 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+.boxz7 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.4s ease-in-out;
+}
+.boxz7 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz7 .box  .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	opacity: 0;
+	z-index: 30;
+	transition: all 0.5s ease-in-out;
+}
+.boxz7 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 10px 0 4px;
+	transform: scale(5);
+	opacity: 0;
+	transition: all 1s;
+}
+.boxz7 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+	transform: scale(5);
+	opacity: 0;
+	transition: all 1s;
+}
+.boxz7 :hover .img{
+	transform: scale(1.2);
+}
+.boxz7  :hover .ziti{
+	opacity: 1;
+}
+.boxz7 :hover .ziti h3{
+	opacity: 1;
+	transform: scale(1);
+}
+.boxz7:hover .ziti span{
+	opacity: 1;
+	transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*8*/
+.boxz8 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz8 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+.boxz8 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	
+	transition:all 0.35s ease-in-out;
+}
+.boxz8 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz8 .box  .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #333;
+	opacity: 0;
+	/*z-index: 30;*/
+	transform: scale(0.3);
+	transition: all 0.35s ease-in-out;
+}
+.boxz8 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 10px 0 4px;
+	transform: scale(0.3);
+	transition: all 0.6s 0.2s;
+	width: 100%;
+	background: #000;
+}
+.boxz8 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+	transform: scale(0.3);
+	transition: all 0.6s 0.2s;
+}
+.boxz8 :hover .img{
+	transform: scale(3);
+	opacity: 0;
+}
+.boxz8:hover .ziti{
+	opacity: 1;
+	transform: scale(1);
+}
+.boxz8 :hover .ziti h3{
+	transform: scale(1);
+}
+.boxz8 :hover .ziti span{
+	transform: scale(1);
+}
+
+
+
+
+
+
+
+
+
+/*9*/
+.boxz9 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz9 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	/*overflow: hidden;*/
+	perspective: 2000px;
+}
+.boxz9 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.8s ease-in-out;
+	transform-origin: center top;
+}
+.boxz9 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz9 .box .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index: 10;
+	transition: all 0.5s ease-in-out;
+}
+.boxz9 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 10px 0 4px;
+	transition: all 1s;
+	width: 280px;
+	height: 40px;
+	margin-top:20px;
+	background: #333;
+}
+.boxz9 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+	transition: all 1s;
+}
+.boxz9 :hover .img{
+	transform: rotateX(180deg);
+}
+
+
+
+
+
+
+/*10*/
+.boxz10 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz10 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	perspective: 20000px;
+}
+.boxz10 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.35s ease-in-out;
+	transform-origin: center top;
+}
+.boxz10 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz10 .box  .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: -100%;
+	background: #333;
+	z-index: 10;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+}
+.boxz10 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 10px 0 4px;
+	transition: all 1s;
+	width: 280px;
+	height: 40px;
+	margin-top:20px;
+	background: #000;
+}
+.boxz10 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+	transition: all 1s;
+}
+.boxz10 :hover .img{
+	transform: translateX(300px);
+}
+.boxz10 :hover .ziti{
+	transform: translateX(300px);
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+/*11*/
+.boxz11 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz11 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	perspective: 20000px;
+}
+.boxz11 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.35s ease-in-out;
+	transform-origin: center center;
+}
+.boxz11 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz11 .box  .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: -100%;
+	background: #333;
+	z-index: 10;
+	transition: all 0.35s ease-in-out 0.2s;
+}
+.boxz11 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 10px 0 4px;
+	transition: all 1s;
+	width: 280px;
+	height: 40px;
+	margin-top:20px;
+	background: #000;
+}
+.boxz11 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+	transition: all 1s;
+}
+.boxz11 :hover .img{
+	transform: scale(0.3);
+	opacity: 0;
+}
+.boxz11 :hover .ziti{
+	transform: translateX(300px);
+}
+
+
+
+
+
+
+
+
+
+/*12*/
+.boxz12 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz12 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	perspective: 20000px;
+}
+.boxz12 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.35s ease-in-out;
+	transform-origin: center center;
+}
+.boxz12 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz12 .box  .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index:30;
+	transform-origin: center center;
+	transform: translateX(-300px) rotate(180deg);
+	transition: all 0.4s ease-in-out;
+}
+.boxz12 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 10px 0 4px;
+	transition: all 0.1s 0.4s;
+	width: 280px;
+	height: 40px;
+	background: #000;
+}
+.boxz12 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+	transition: all 0.1s 0.4s;
+}
+.boxz12 :hover .ziti{
+	transform: translateX(0px) rotate(0deg);
+}  
+.boxz12 :hover .ziti h3{
+	transform: translateY(30px);
+}
+.boxz12 :hover .ziti span{
+	transform: translateY(30px);
+}
+
+
+
+
+
+
+
+
+
+/*13*/
+.boxz13 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz13 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	perspective: 20000px;
+}
+.boxz13 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.35s ease-in-out;
+	transform-origin: center center;
+}
+.boxz13 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz13 .box  .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.5);
+	z-index:30;
+	transform-origin: left top;
+	transform: translateX(-300px);
+	transition: all 0.4s ease-in-out;
+}
+.boxz13 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 10px 0 4px;
+	transition: all 0.5s;
+	width: 280px;
+	height: 40px;
+	background: #000;
+	margin-top: 30px;
+}
+.boxz13 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+	transition: all 0.55s;
+}
+.boxz13 :hover .img{
+	transform: scale(1.2);
+}  
+.boxz13 :hover .ziti{
+	transform: translateX(0);
+} 
+
+
+
+
+
+
+
+
+/*14*/
+.boxz14 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz14 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	perspective: 20000px;
+}
+.boxz14 .box  .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.35s ease-in-out;
+	transform-origin: center center; 
+}
+.boxz14 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz14 .box  .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #333;
+	transform-origin: center center;
+	transform: scale(0.3);
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+}
+.boxz14 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 10px 0 4px;
+	transition: all 0.5s;
+	width: 280px;
+	height: 40px;
+	background: #000;
+	margin-top: 30px;
+}
+.boxz14 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+	transition: all 0.55s;
+}
+.boxz14 :hover .img{
+	transform: translateX(300px) rotate(180deg);
+	opacity: 0;
+}  
+.boxz14 :hover .ziti{
+	transform: scale(1);
+	opacity: 1;
+} 
+
+
+
+
+
+
+
+
+
+
+/*15*/
+.boxz15 .box{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.boxz15 .box {
+	display: block;
+	width: 300px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	perspective: 2000px;
+}
+.boxz15 .box .img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 20;
+	transition:all 0.35s ease-in-out;
+	transform-origin: right center; 
+}
+.boxz15 .box  .img img{
+	display: block;
+	width: 300px;
+	height: 200px;
+}
+.boxz15 .box .ziti{
+	width: 300px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #333;
+	opacity: 0;
+	transform-origin: left center;
+	transform: rotateY(180deg);
+	transition: all 0.7s ease-in-out;
+}
+.boxz15 .box  .ziti h3{
+	color: #fff;
+	text-align: center;
+	font-size: 17px;
+	padding: 10px 10px 0 4px;
+	transition: all 0.5s;
+	width: 280px;
+	height: 40px;
+	background: #000;
+	margin-top: 30px;
+}
+.boxz15 .box  .ziti span{
+	display: block;
+	font-style: italic;
+	font-size: 12px;
+	color: #bbb;
+	padding: 5px;
+	text-align: center;
+	transition: all 0.55s;
+}
+.boxz15 :hover .img{
+	transform: rotateY(90deg);
+	opacity: 0;
+}  
+.boxz15 :hover .ziti{
+	transform: rotateY(0deg);
+	opacity: 1;
+}
+
+
